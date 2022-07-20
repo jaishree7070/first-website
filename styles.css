@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cookie&family=Edu+SA+Beginner&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cookie&family=Edu+SA+Beginner&display=swap');
+
+/* Navbar*/
+#navhome{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+#navbar{
+    display: flex;
+    position: relative;
+    position:
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo img{
+    height: 53px;
+}
+#navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color:rgb(122, 55, 55);
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:white;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+#navbar ul li{
+    margin: 5px;
+    list-style:none;
+    padding: 10px;
+    font-size: 1.3rem;
+
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 33px 200px;
+    height: 22.2rem;
+  
+}
+#navhome::before{
+    content: "";
+    background:url("home3.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    background: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#about-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-block: 11px;
+    margin: auto;
+    position:relative;
+
+}
+
+#about h5{
+    text-align: center;
+    color:rgb(65, 9, 9);
+    font-size: 3.2rem;
+}
+#about h4{
+    text-align: center;
+    color:rgb(122, 55, 55);
+    text-decoration: underline; 
+}
+#about p{
+    text-align: center;
+    color:rgb(240, 192, 192);
+}
+
+#about{
+    position:relative;
+}
+#about::before{
+    content: "";
+    background-color:rgb(65, 9, 9);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#about-container.box{
+    padding: 18px;
+    margin: 10px;
+
+}
+#cafemenu{
+    position:relative;
+
+}
+ 
+#cafemenu::before{
+    content: "";
+    background:url("menu.jpg") no-repeat center center/cover;
+    height: 103%;
+    width: 100%;
+    background: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#menu{
+    border:1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: solid black;
+    justify-content: space-between;
+    padding:3rem 9rem;
+    margin: 1rem 6rem;
+}
+#heading-m{
+    margin-bottom:-2rem;
+    font-size: 4.2rem;
+    font-family: 'Volkhov', serif;
+    padding: 40px;
+    color:rgb(65, 9, 9);
+    text-align: center;
+}
+#items{ 
+    display: flex;
+    direction: column;
+    color:rgb(122, 55, 55);
+
+}
+/* socialmedia */
+#media{
+    display:flex;
+    position: relative;
+}
+#media::before{
+    content: "";
+    background-color: rgb(65, 9, 9);
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(65, 9, 9);
+    opacity: 0.8;
+    color: #fff3f3;
+}
+/* utility class */
+*{
+    margin: 0;padding: 0;
+}
+.h-primary{
+    font-size: 4.2rem;
+    font-family: 'Volkhov', serif;
+    padding: 40px;
+    text-align: center;
+}
+.p-primary{
+    font-size: 1.2rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color:rgb(122, 55, 55);
+}
+.color-primary{
+    color:rgb(65, 9, 9);
+}
+.color-secondary{
+    color:rgb(122, 55, 55);
+}
+.color-tertary{
+    color:rgb(240, 192, 192);
+}
